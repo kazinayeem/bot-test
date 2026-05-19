@@ -113,7 +113,7 @@ export default function App() {
       // =========================
 
       const response = await fetch(
-        "http://13.233.214.0:8000/chat",
+        "https://manpower-trial-kindly.ngrok-free.dev/chat",
         {
           method: "POST",
           headers: {
